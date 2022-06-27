@@ -1,25 +1,14 @@
 #!/usr/bin/env bash
-#Display numbers from 1 to 100
-#Diplay FizzBuzz when the number is a multiple of 3 and 5
-#Displays Buzz when the number is a multiple of 3
-#Otherwise, display the number
-#In a list format
-
-((n=1))
-while [ $n -le 100 ]; do 
-
-	if [ $((n%3)) -eq 0 ] && [ $((n%5)) -eq 0 ]; then
+#Multiplia
+for ((number=1; number<=100; number++))
+do
+	if [ $(( number%3 )) == 0 ] && [ $((number%5)) == 0 ]; then
 		echo "FizzBuzz"
-
-	elif [ $((n%3)) -eq 0 ]; then 
+	elif ((number%3 == 0)); then
 		echo "Fizz"
-
-	elif [ $((n%5)) -eq 0 ]; then
+	elif ((number%5 == 0)); then
 		echo "Buzz"
-
-	else
-		echo "$n"
+      	else
+		echo "$number"
 	fi
-
-	((n++))
 done
