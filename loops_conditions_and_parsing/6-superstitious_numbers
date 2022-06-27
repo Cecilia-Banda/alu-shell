@@ -9,3 +9,16 @@ case $n in
         echo "bad luck from China"
         ;;
         9)      
+echo "$n"
+	echo "bad luck from Japan"
+	;;
+	17)
+	echo "$n"
+	echo "bad luck from Italy"
+	;;
+
+	*)
+	echo "$n"
+esac
+	((n++))
+done
