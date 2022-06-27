@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#chnage the output of 4th, 9th and 17th iteration
+
+((n=1))
+while [ $n -le 20 ]; do
+
+case $n in
+        4)
+        echo "bad luck from China"
+        ;;
+        9)      
