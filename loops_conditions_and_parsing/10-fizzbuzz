@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#display numbers from 1 to 100
+#display FizzBuzz when the number is a multiple of 3 and 5
+#display Buzz when the number is a mutiple of 3
+#otherwise, display the number
+#In a list format
+
+((n=1))
