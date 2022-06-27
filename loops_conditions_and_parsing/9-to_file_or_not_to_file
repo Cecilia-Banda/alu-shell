@@ -6,5 +6,18 @@ if [ -e school ];
        echo "School file exists"
 
         #Check if the school file exists or not
-        if  [-s school ]; then
+        if [ -s school ]; then 
+		echo "school file is not empty"
+	else
+		echo "school file is empty"
+	fi
 
+	#Check if it's a regular file
+	if [ -f school ]; then
+		echo "school is a regular file"
+
+	fi
+
+#File does not exist
+else 	
+	echo "school file does not exist"
