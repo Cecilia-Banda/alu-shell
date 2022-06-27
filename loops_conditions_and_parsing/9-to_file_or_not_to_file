@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Information about the school file
+
+#Check if the school file exists
+if [ -e school ];
+       echo "School file exists"
+
+        #Check if the school file exists or not
+        if  [-s school ]; then
+
