@@ -23,8 +23,3 @@ while [ $n -le 100 ]; do
 
 	((n++))
 done
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Statu
