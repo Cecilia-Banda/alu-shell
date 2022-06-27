@@ -1,24 +1,31 @@
 #!/usr/bin/env bash
-#chnage the output of 4th, 9th and 17th iteration
-
-((n=1))
-while [ $n -le 20 ]; do
-
-case $n in
-        4)
-        echo "bad luck from China"
-        ;;
-        9)      
-echo "$n"
-	echo "bad luck from Japan"
-	;;
-	17)
-	echo "$n"
-	echo "bad luck from Italy"
-	;;
-
-	*)
-	echo "$n"
-esac
-	((n++))
+#Bad luck
+counter=1
+while ((counter<=20))
+do
+	case $counter in
+	
+		4)
+			echo "$counter"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "$counter"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$counter"
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$counter"
+			;;
+		esac
+		((counter++))
 done
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
