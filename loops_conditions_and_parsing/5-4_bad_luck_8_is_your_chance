@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#chnage the 4th, 8th loop iterations
+
+((n=1))
+
